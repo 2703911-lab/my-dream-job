@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #333;
+            overflow-x: hidden;
+        }
+        header {
+            background-color: #003087;
+            color: white;
+            text-align: center;
+            padding: 2em;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            animation: fadeIn 1s ease-in;
+        }
+        h1, h2, h3 {
+            color: #003087;
+            text-shadow: 0 0 10px rgba(255, 215, 0, 0.8), 0 0 20px rgba(255, 215, 0, 0.5);
+            /* Glossy text effect */
+        }
+        nav {
+            background-color: #004aad;
+            padding: 1em;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        nav a {
+            color: white;
+            margin: 0 1.5em;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+        nav a:hover {
+            color: #ffd700;
+            transform: scale(1.1);
+        }
+        .container {
+            max-width: 900px;
+            margin: 2em auto;
+            padding: 2em;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            animation: slideIn 0.8s ease-out;
+        }
+        .logo {
+            max-width: 150px;
+            display: block;
+            margin: 1.5em auto;
+            border-radius: 12px;
+            transition: transform 0.3s ease;
+        }
+        .logo:hover {
+            transform: rotate(5deg) scale(1.1);
+        }
+        .career-img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 1.5em auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+        .career-img:hover {
+            transform: scale(1.05);
+        }
+        p {
+            line-height: 1.6;
+            margin: 1em 0;
+            opacity: 0;
+            animation: fadeIn 1s ease-in forwards;
+            animation-delay: 0.5s;
+        }
+        ul {
+            margin: 1em 0;
+            padding-left: 2em;
+            opacity: 0;
+            animation: fadeIn 1s ease-in forwards;
+            animation-delay: 0.7s;
+        }
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #003087;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Page 1: About Me -->
+    <header>
+        <h1>About Me</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#career">Career Interest</a>
+    </nav>
+    <div class="container" id="home">
+        <h2>Jayden Walligton</h2>
+        <p><strong>Class:</strong> 9B</p>
+        <p><strong>Grade:</strong> 9</p>
+        <p><strong>Semester:</strong> Semester One</p>
+        <img src="https://via.placeholder.com/150?text=Shrek+Logo" alt="Shrek Personal Logo" class="logo">
+    </div>
+
+    <!-- Page 2: Career Interest Page -->
+    <div class="container" id="career">
+        <h2>Career Interest: Police Officer</h2>
+        <h3>Dream Job Description</h3>
+        <p>My dream job is to become a Police Officer, a role where I can protect and serve my community. As a police officer, I would patrol neighborhoods to maintain safety, respond to emergency calls, investigate crimes, and make arrests when necessary. I’d also write detailed reports, enforce traffic laws, and engage with the community to build trust and promote safety. This career is exciting and meaningful because it allows me to make a real difference by keeping people safe and upholding justice.</p>
+
+        <h3>Qualifications Needed</h3>
+        <p>To become a police officer, I need the following qualifications:</p>
+        <ul>
+            <li><strong>Education:</strong> A high school diploma or GED is required. Some agencies prefer candidates with college coursework or an associate’s degree in criminal justice.</li>
+            <li><strong>Age:</strong> Must be at least 21 years old (some agencies accept 18-year-olds).</li>
+            <li><strong>Physical Fitness:</strong> Pass a physical fitness test to show strength, agility, and endurance.</li>
+            <li><strong>Background Check:</strong> A clean criminal record, good driving history, and stable credit are required.</li>
+            <li><strong>Training:</strong> Complete police academy training, which includes law enforcement techniques, firearms training, and emergency response.</li>
+            <li><strong>Other Requirements:</strong> A valid driver’s license, U.S. citizenship, and passing psychological and polygraph tests.</li>
+        </ul>
+        <p><strong>University and Program:</strong> While not always required, a degree in criminal justice can improve my chances of getting hired and advancing. I could attend Arizona State University’s Bachelor’s in Criminology and Criminal Justice program, which offers courses in law enforcement, criminal law, and investigative techniques to prepare me for this career.</p>
+
+        <h3>Average Salary</h3>
+        <p>The average annual salary for a police officer in the United States is approximately $74,910. Starting salaries are around $63,488, while experienced officers in high-paying areas like California can earn up to $113,460 or more.</p>
+
+        <h3>Companies to Work For</h3>
+        <p>As a police officer, I could work for agencies such as:</p>
+        <ul>
+            <li>Local Police Departments (e.g., New York Police Department, Los Angeles Police Department)</li>
+            <li>Sheriff’s Offices (e.g., Maricopa County Sheriff’s Office)</li>
+            <li>State Police or Highway Patrol (e.g., California Highway Patrol)</li>
+            <li>Federal Agencies (e.g., FBI or DEA, with additional training)</li>
+        </ul>
+
+        <h3>Career Image</h3>
+        <img src="https://via.placeholder.com/600x400?text=Police+Officer" alt="Male Police Officer in Uniform" class="career-img">
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Jayden Walligton. All rights reserved.</p>
+    </footer>
+</body>
+</html>
